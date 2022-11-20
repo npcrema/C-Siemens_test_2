@@ -1,0 +1,20 @@
+//Exercise 9 - 1
+bq //start the code
+rel ABC// select ABC relation
+di //display the structure of the relation
+
+___________________________________________________________
+//Exercise 9 - 2
+bq //start the code
+rel XYZ //select XYZ relation
+re f //read the first record
+re l //read the last record
+
+________________________________________________________
+//Exercise 9 - 3
+bq //start the code
+rel XYZ // select XYZ relation
+key 10 // indicate the key
+re k //read the record associated with the key value 
+re n //read the next
+re n //read the next and the others
